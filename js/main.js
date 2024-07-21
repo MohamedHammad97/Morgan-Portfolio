@@ -10,7 +10,7 @@ $(window).scroll(function () {
     let windowOffset = $(window).scrollTop()
     if (windowOffset >aboutSection -50) {
         $("#navBar").css("background-color","rgba(0, 0, 0, 0.8)")
-        $("#navBar .container").css("padding", "0 100px")
+        $("#navBar .container").css("padding", "0 50px")
         $("#backToTop").fadeIn(1000)
     } else {
         $("#navBar").css("background-color", "transparent")
